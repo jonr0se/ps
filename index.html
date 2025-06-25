@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PS5 Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>PlayStation 5 Portal</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Games</a>
+      <a href="#">Store</a>
+      <a href="#">Support</a>
+      <button id="toggleTheme">Dark Mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Next-Gen Performance</h2>
+      <p>Experience the speed and immersion like never before on the PS5.</p>
+      <button onclick="explore()">Explore</button>
+    </section>
+
+    <section class="controller-showcase">
+      <h3>DualSense Vibes</h3>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/DualSense_Controller.jpg/640px-DualSense_Controller.jpg" 
+           alt="DualSense Controller" class="controller" />
+      <p id="dateDisplay"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> PlayStation Universe. Fan-made site for demo purposes.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
